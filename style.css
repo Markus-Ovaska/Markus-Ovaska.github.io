@@ -1,37 +1,60 @@
-body {background-color: rgb(25, 25, 25)}
-body {text-align: center}
-h1 {color:rgb(88, 175, 242)}
-h1 {font-size: 80px;}
-h2 {color:rgb(255, 255, 255)}
-h3 {color:rgb(255, 255, 255)}
-p {color:rgb(255, 255, 255)}
-p {font-size: 20px;}
-main {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body {
+  background-color: rgb(25, 25, 25)
+}
 
-/* Add a black background color to the top navigation */
+h1 {
+  text-align: center;
+  color: rgb(88, 175, 242);
+  font-size: 80px;
+}
+
+h2 {
+  color: rgb(255, 255, 255)
+}
+
+h3 {
+  color: rgb(255, 255, 255)
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navigointipalkin taustavärin muutto */
 .topnav {
-  background-color: #4c4a4e;
+  background-color: #5c5a5e;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+/* Linkkien tekstin väri + reunojen koko */
 .topnav a {
   float: right;
-  color: #b4adad;
+  color: rgb(88, 175, 242);
   text-align: center;
   padding: 5px 8px;
   text-decoration: none;
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* Linkkien hover väri */
 .topnav a:hover {
-  background-color: #827f7f;
+  background-color: #888585;
   color: black;
 }
 
-/* Add a color to the active/current link */
+/* Aktiivisen/nykyisen linkin väri */
 .topnav a.active {
   background-color: #0b0b0b;
   color: white;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(88, 175, 242);
+  font-size: 80px;
 }
