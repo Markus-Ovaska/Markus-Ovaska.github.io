@@ -26,11 +26,17 @@ hr {
 
 h2 {
   color: rgb(255, 255, 255);
-  font-size: 30;
+  font-size: 35px;
 }
 
 h3 {
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
 }
 
 p {
@@ -38,13 +44,29 @@ p {
   font-size: 20px;
 }
 
+ul {
+  color: rgb(255, 255, 255);
+font-size: 20px;
+}
+
+
 main {
   font-family:initial
 }
 
+body {
+  background-image: url( 'background1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+
 /* Navigointipalkin taustavärin muutto */
 .topnav {
-  background-color: #5c5a5e;
+  background-color: #424143;
   overflow: hidden;
 }
 
@@ -73,9 +95,44 @@ main {
 .div1{
   background: rgb(88, 175, 242);
   position:relative;
-  margin-top:-40px;
+  margin-top: -40px;
   height:5px;
   z-index:-1;
   }
   
- 
+
+ @media (max-width: 600px) {
+
+  .container {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 601px) {
+
+  .container { 
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .container { 
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .container { 
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .container { 
+    width: 100%;
+  }
+}
